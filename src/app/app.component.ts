@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+valor: number=5;
+mostra=true;
+
+mudarValor() {
+  this.valor++;
+}
+
+destruir()
+{this.mostra=false;}
+
+mostrar()
+{this.mostra=true;}
+
 }
