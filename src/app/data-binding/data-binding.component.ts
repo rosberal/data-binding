@@ -35,7 +35,7 @@ constructor() {}
   }
 
   onKeyUp(evento) {
-    //console.log(evento);
+    // console.log(evento);
     this.valorAtual = evento;
   }
 
@@ -48,7 +48,7 @@ constructor() {}
   }
 
 onMudouValor(evento){
-console.log(evento);
+// console.log(evento);
 
 }
 
